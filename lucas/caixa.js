@@ -13,6 +13,9 @@ const validaValorInformado = (valor) => {
     if(valor == 1)
         throw "Valor de R$ 1 não pode ser sacado. :)";
 
+    if(valor == 3)
+        throw "Valor de R$ 3 não pode ser sacado. :)";
+
     if(valor % 1 != 0)
         throw "Aqui não é caixa de mendigo, não temos moedas!"
 
